@@ -1,0 +1,58 @@
+.full-height{
+  height: 100vh;
+}
+
+#bg1{
+  background-image: url('https://wallpapersite.com/images/pages/pic_w/2659.jpg');
+}
+
+#barrier1{
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+#bg2{
+  background-image: url('https://media.comicbook.com/2019/03/bo-iron-man-1162005-1280x0.jpeg');
+}
+
+#barrier2{
+  background: linear-gradient( #6d005e, #81b459);
+}
+
+#bg3{
+  background-image: url('thor-wp.jpg');
+}
+#barrier3{
+  background: linear-gradient( #3f87a6, #4cadd3);
+}
+
+.bgi{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-width: 787px){
+  #bg1{
+  background-image: url('thor-wp.jpg');
+}
+
+#barrier1{
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+#bg2{
+  background-image: url('https://wallpapersite.com/images/pages/pic_w/2659.jpg');
+}
+
+#barrier2{
+  background: linear-gradient( #6d005e, #81b459);
+}
+
+#bg3{
+  background-image: url('https://media.comicbook.com/2019/03/bo-iron-man-1162005-1280x0.jpeg');
+}
+#barrier3{
+  background: linear-gradient( #3f87a6, #4cadd3);
+}
+}
